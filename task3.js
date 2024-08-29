@@ -1,7 +1,7 @@
 /*
 
 Task-3
-You task is to divide the given number by 5 and show the remainder as the output.
+Your task is to divide the given number by 5 and show the remainder as the output.
 
 Input:
 The first line of the input contains the number.
@@ -16,3 +16,9 @@ Sample Output:
 4
 
 */
+
+var chosenNumber = 223;
+
+var remainder = chosenNumber % 5;
+
+console.log(`the remainder is:`, remainder)

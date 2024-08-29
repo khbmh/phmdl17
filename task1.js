@@ -18,3 +18,16 @@ Sample Output:
 
 */
 
+var moneyIHave = 1200;
+
+// price per kilogram for each fruit
+var applePerKg = 160;
+var orangePerKg = 250;
+
+// if bought 2kg of apples and 3kg of oranges.
+
+var totalCost = applePerKg * 2 + orangePerKg * 3;
+
+var moneyToReturn = moneyIHave - totalCost;
+
+console.log(moneyToReturn);
